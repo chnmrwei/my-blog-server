@@ -66,7 +66,7 @@ npm -v
 ### 本地开发
 ```bash
 # 克隆项目
-git clone [项目地址]
+git clone https://github.com/chnmrwei/my-blog-server.git
 
 # 安装依赖
 npm install
