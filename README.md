@@ -27,11 +27,11 @@ mkdir C:\data\db
 # 方式1：命令行启动
 mongod --dbpath C:\data\db
 
-# 方式2：Windows 服务启动（管理员权限）
-net start MongoDB
+# 方式2：Windows 服务启动
+mongod
 
 # 连接测试
-mongo
+mongosh
 ```
 
 6. 数据库初始化
